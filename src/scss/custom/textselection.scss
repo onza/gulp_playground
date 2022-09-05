@@ -1,0 +1,8 @@
+.accordion__label,
+h1,h2,h3,h4,h5,p,li,a,span,b,strong,i,em,sub,sup,th,td,blockquote,figcaption,caption,legend,label,time {
+  &::selection {
+    color: #fff;
+    background-color: var(--c-primary);
+    border-color: #fff;
+  }
+}

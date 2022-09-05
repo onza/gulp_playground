@@ -1,0 +1,37 @@
+{
+  "name": "gulp_demo",
+  "version": "1.0.0",
+  "description": "gulp demo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "martin farkas",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "eslint": "^8.22.0",
+    "browser-sync": "^2.27.10",
+    "browserslist": "^4.21.3",
+    "caniuse-lite": "^1.0.30001375",
+    "del": "^4.1.1",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.54.4"
+  },
+  "browserslist": [
+    "> 0.2%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
