@@ -1,6 +1,6 @@
 {
   "name": "gulp_demo",
-  "version": "2.0.0",
+  "version": "1.1.0",
   "description": "gulp demo",
   "main": "index.html",
   "scripts": {
@@ -13,14 +13,14 @@
     "browserslist": "^4.23.2",
     "del": "^7.1.0",
     "eslint": "^9.7.0",
-    "gulp": "^5.0.0",
+    "gulp": "^4.0.2",
     "gulp-imagemin": "^9.1.0",
     "gulp-autoprefixer": "^9.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
-    "gulp-plugin-terser": "^4.0.1"
+    "gulp-plugin-terser": "^2.1.0",
     "gulp-svg-sprite": "^2.0.3",
     "sass": "^1.77.8"
   },
