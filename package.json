@@ -1,6 +1,6 @@
 {
   "name": "gulp_demo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "gulp demo",
   "main": "index.html",
   "scripts": {
@@ -9,29 +9,26 @@
   "author": "martin farkas",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2"
-  },
-  "dependencies": {
-    "eslint": "^8.22.0",
-    "browser-sync": "^2.27.10",
-    "browserslist": "^4.21.3",
-    "caniuse-lite": "^1.0.30001375",
-    "del": "^4.1.1",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-babel": "^8.0.0",
+    "browser-sync": "^3.0.2",
+    "browserslist": "^4.23.2",
+    "del": "^7.1.0",
+    "eslint": "^9.7.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-svg-sprite": "^1.5.0",
-    "gulp-terser": "^2.1.0",
-    "sass": "^1.54.4"
+    "gulp-svg-sprite": "^2.0.3",
+    "sass": "^1.77.8"
   },
   "browserslist": [
     "> 0.2%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "gulp-imagemin": "^9.1.0",
+    "gulp-plugin-terser": "^4.0.1"
+  }
 }

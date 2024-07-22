@@ -1,10 +1,11 @@
-# Gulp for developing static website templates.
-### Demo on using Gulp as a task manager for developing handwritten static website templates right in the browser.
-There are certainly cleaner and nicer methods. The gulpfile.js is based on a long-standing configuration file, which has been optimized for my needs over and over again. ...
+# Gulp 5 for developing static website templates.
+
+## Demo on using Gulp as a task manager for developing handwritten static website templates right in the browser.
 
 ## List of all tasks used
+
 - Deleting the distribution folder on new build.
-- Compile scss to css and compress the code.
+- Compile scss to css, compress the code, rename the build file
 - Compress and concatenate js files.
 - Copy all html and fonts files to the distribution folder.
 - Image optimization for jpgs, gifs and pngs.
