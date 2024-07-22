@@ -35,15 +35,15 @@
       .accordion__label {
         margin: 0;
         padding: 0.5rem 0.75rem;
-        @media screen and (min-width: 1280px) {
-          padding: 1rem 1rem;
-        }
         text-align: left;
         line-height: 1.4;
         color: var(--c-primary);
         font-size: 1.1rem;
         @media screen and (min-width: 768px) {
           font-size: 1.3rem;
+        }
+        @media screen and (min-width: 1280px) {
+          padding: 1rem 1rem;
         }
       }
     }
