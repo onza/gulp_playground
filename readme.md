@@ -1,4 +1,4 @@
-# Gulp 4 for developing static website templates.
+# Gulp 5 for developing static website templates.
 
 ## Demo on using Gulp as a task manager for developing handwritten static website templates right in the browser.
 
